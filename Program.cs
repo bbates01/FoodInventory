@@ -38,10 +38,10 @@ internal class Program
                     break;
                 case "4":
                     exit = true;
-                    Console.WriteLine("Exiting the program. Goodbye!");
+                    Console.WriteLine("\nExiting the program. Goodbye!");
                     break;
                 default:
-                    Console.WriteLine("Invalid choice. Please try again.");
+                    Console.WriteLine("\nInvalid choice. Please try again.");
                     break;
             }
         }

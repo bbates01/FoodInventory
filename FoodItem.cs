@@ -17,7 +17,7 @@ public class FoodItem
     
     public static void AddFoodItem(List<FoodItem> foodItems)
     {
-        Console.Write("Enter food item name: ");
+        Console.Write("\nEnter food item name: ");
         string name = Console.ReadLine();
         
         Console.Write("Enter food item category: ");
@@ -32,7 +32,7 @@ public class FoodItem
         FoodItem newItem = new FoodItem(name, category, quantity, expirationDate);
         foodItems.Add(newItem);
         
-        Console.WriteLine("Food item added successfully!");
+        Console.WriteLine("\nFood item added successfully!");
     }
 
     public static void DeleteFoodItem(List<FoodItem> foodItems)
@@ -44,7 +44,7 @@ public class FoodItem
         if (index >= 0 && index < foodItems.Count)
         {
             foodItems.RemoveAt(index);
-            Console.WriteLine("Food item deleted successfully!");
+            Console.WriteLine("\nFood item deleted successfully!");
         }
         else
         {
@@ -55,11 +55,11 @@ public class FoodItem
     {
         if (foodItems.Count == 0)
         {
-            Console.WriteLine("No food items available.");
+            Console.WriteLine("\nNo food items available.");
             return;
         }
         
-        Console.WriteLine("Current Food Items:");
+        Console.WriteLine("\nCurrent Food Items:");
         for (int i = 0; i < foodItems.Count; i++)
         {
             FoodItem item = foodItems[i];
