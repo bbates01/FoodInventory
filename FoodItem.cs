@@ -48,6 +48,19 @@ public class FoodItem
         Console.Write("Enter expiration date (yyyy-mm-dd): ");
         DateTime expirationDate = DateTime.Parse(Console.ReadLine());
         
+        // check if item is already in list
+        foreach (FoodItem item in foodItems)
+        {
+            if (item.Name.Equals(name, StringComparison.OrdinalIgnoreCase) &&
+                item.Category.Equals(category, StringComparison.OrdinalIgnoreCase) &&
+                item.ExpirationDate.Date == expirationDate.Date)
+            {
+                // if found, update quantity and return
+                item.Quantity += quantity;
+                Console.WriteLine("\nFood item already exists. Updated quantity successfully!");
+                return;
+            }
+        }
         // create new food item and add to list
         FoodItem newItem = new FoodItem(name, category, quantity, expirationDate);
         foodItems.Add(newItem);
