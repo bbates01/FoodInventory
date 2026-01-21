@@ -1,0 +1,14 @@
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/bin/Debug/net10.0/Assignment3
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/bin/Debug/net10.0/Assignment3.deps.json
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/bin/Debug/net10.0/Assignment3.runtimeconfig.json
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/bin/Debug/net10.0/Assignment3.dll
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/bin/Debug/net10.0/Assignment3.pdb
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.AssemblyInfoInputs.cache
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.AssemblyInfo.cs
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.csproj.CoreCompileInputs.cache
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.dll
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/refint/Assignment3.dll
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.pdb
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/Assignment3.genruntimeconfig.cache
+/Users/bradybates/Library/CloudStorage/Box-Box/bbates01/Winter 2026/RiderProjects/Assignment3/obj/Debug/net10.0/ref/Assignment3.dll
