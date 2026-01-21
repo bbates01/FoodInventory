@@ -36,6 +36,7 @@ internal class Program
                 case "3":
                     FoodItem.PrintFoodItems(foodItems);
                     break;
+                // if user chooses 4 then exit the loop
                 case "4":
                     exit = true;
                     Console.WriteLine("\nExiting the program. Goodbye!");

@@ -17,18 +17,38 @@ public class FoodItem
     
     public static void AddFoodItem(List<FoodItem> foodItems)
     {
+        // get food item details from user
         Console.Write("\nEnter food item name: ");
         string name = Console.ReadLine();
         
         Console.Write("Enter food item category: ");
         string category = Console.ReadLine();
         
-        Console.Write("Enter quantity: ");
-        int quantity = int.Parse(Console.ReadLine());
+        // use a loop to ensure valid quantity input
+        int quantity = 0;
+        bool invalidQuantity = true;
+        while (invalidQuantity)
+        {
+            Console.Write("Enter quantity: ");
+            int quantityInput = int.Parse(Console.ReadLine());
+            if (quantityInput >= 0)
+            {
+                // assign valid quantity to variable
+                invalidQuantity = false;
+                quantity = quantityInput;
+            }
+            else
+            {
+                // prompt user to re-enter quantity
+                Console.WriteLine("Quantity must be a positive integer. Please try again.");
+            }
+            
+        }
         
         Console.Write("Enter expiration date (yyyy-mm-dd): ");
         DateTime expirationDate = DateTime.Parse(Console.ReadLine());
         
+        // create new food item and add to list
         FoodItem newItem = new FoodItem(name, category, quantity, expirationDate);
         foodItems.Add(newItem);
         
